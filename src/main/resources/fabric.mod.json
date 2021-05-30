@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "end",
+  "version": "${version}",
+
+  "name": "The End Update",
+  "description": "The Beta 1.2 Snapshot adds new biomes and entities to the game.",
+  "authors": [
+    "Pluto7073"
+  ],
+  "contact": {
+    "homepage": "https://pluto7073.github.io/end-update/",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/end/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.pluto.endupdate.EndUpdate"
+    ],
+    "client": [
+      "io.pluto.endupdate.client.EndUpdateClient"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

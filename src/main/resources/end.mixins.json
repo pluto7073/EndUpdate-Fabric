@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.pluto.endupdate.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "EndUpdateMixins"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

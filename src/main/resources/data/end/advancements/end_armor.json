@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "end:chorus_gem_chestplate"
+    },
+    "title": "Armor from the End",
+    "description": "Craft a full suit of Chorus Gem Armor",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "end:find_chorus_gem",
+  "criteria": {
+    "chorus_gem_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "end:chorus_gem_boots"
+          },
+          {
+            "item": "end:chorus_gem_leggings"
+          },
+          {
+            "item": "end:chorus_gem_chestplate"
+          },
+          {
+            "item": "end:chorus_gem_helmet"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "chorus_gem_armor"
+    ]
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "item": "end:chorus_gem"
+    }
+  },
+  "result": {
+    "item": "end:chorus_gem_leggings",
+    "count": 1
+  }
+}

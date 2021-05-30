@@ -1,0 +1,24 @@
+{
+  "item.end.chorus_gem": "Chorus Gem",
+
+  "block.end.chorus_gem_ore": "Chorus Gem Ore",
+  "block.end.chorus_log": "Chorus Log",
+  "block.end.chorus_planks": "Chorus Planks",
+  "block.end.purplestone": "Purplestone",
+  "block.end.chorus_bush": "Chorus Bush",
+  "block.end.purpur_grass": "Purpur Grass",
+  "block.end.chorus_wood": "Chorus Wood",
+
+  "item.end.chorus_gem_sword": "Chorus Gem Sword",
+  "item.end.chorus_gem_axe": "Chorus Gem Axe",
+  "item.end.chorus_gem_pickaxe": "Chorus Gem Pickaxe",
+  "item.end.chorus_gem_shovel": "Chorus Gem Shovel",
+  "item.end.chorus_gem_hoe": "Chorus Gem Hoe",
+
+  "item.end.chorus_gem_helmet": "Chorus Gem Helmet",
+  "item.end.chorus_gem_chestplate": "Chorus Gem Chestplate",
+  "item.end.chorus_gem_leggings": "Chorus Gem Leggings",
+  "item.end.chorus_gem_boots": "Chorus Gem Boots",
+
+  "biome.end.purplestone_spikes": "Purplestone Spikes"
+}

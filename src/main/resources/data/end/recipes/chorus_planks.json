@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "end:chorus_log"
+    }
+  ],
+  "result": {
+    "item": "end:chorus_planks",
+    "count": 4
+  }
+}

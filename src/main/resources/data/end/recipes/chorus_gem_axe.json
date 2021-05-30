@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx",
+    "yx",
+    "y "
+  ],
+  "key": {
+    "x": {
+      "item": "end:chorus_gem"
+    },
+    "y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "end:chorus_gem_axe",
+    "count": 1
+  }
+
+}
