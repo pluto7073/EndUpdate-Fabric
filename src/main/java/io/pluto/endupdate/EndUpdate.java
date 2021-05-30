@@ -1,6 +1,7 @@
 package io.pluto.endupdate;
 
 import com.google.common.collect.ImmutableList;
+import io.pluto.endupdate.entities.ModEntities;
 import io.pluto.endupdate.features.end_spike.EndSpike;
 import io.pluto.endupdate.features.end_spike.EndSpikeGenerator;
 import io.pluto.endupdate.registry.ModBlocks;
@@ -207,6 +208,7 @@ public class EndUpdate implements ModInitializer {
     public void onInitialize() {
         ModBlocks.register();
         ModItems.register();
+        ModEntities.registerEntities();
         addChorusGemOre();
         registerSpikes();
         registerPurplestoneSpikes();
