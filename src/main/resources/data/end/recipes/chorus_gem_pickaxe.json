@@ -1,20 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "xxx",
-    " y ",
-    " y "
-  ],
-  "key": {
-    "x": {
-      "item": "end:chorus_gem"
-    },
-    "y": {
-      "item": "minecraft:stick"
-    }
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "addition": {
+    "item": "end:chorus_gem"
   },
   "result": {
-    "item": "end:chorus_gem_pickaxe",
-    "count": 1
+    "item": "end:chorus_gem_pickaxe"
   }
 }

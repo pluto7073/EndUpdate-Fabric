@@ -1,17 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "x x",
-    "xxx",
-    "xxx"
-  ],
-  "key": {
-    "x": {
-      "item": "end:chorus_gem"
-    }
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "item": "end:chorus_gem"
   },
   "result": {
-    "item": "end:chorus_gem_chestplate",
-    "count": 1
+    "item": "end:chorus_gem_chestplates"
   }
 }
