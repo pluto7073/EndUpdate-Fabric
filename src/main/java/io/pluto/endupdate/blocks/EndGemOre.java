@@ -1,19 +1,18 @@
 package io.pluto.endupdate.blocks;
 
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.*;
 import net.minecraft.util.math.MathHelper;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 import java.util.Random;
 
 public class EndGemOre extends OreBlock {
 
     public EndGemOre() {
-        super(AbstractBlock.Settings.of(Material.STONE).requiresTool().strength(3.0F, 3.0F));
-    }
-
-    @Override
-    protected int getExperienceWhenMined(Random random) {
-        return MathHelper.nextInt(random, 5, 7);
+        super(FabricBlockSettings.of(Material.STONE).requiresTool()
+                .breakByTool(FabricToolTags.PICKAXES, 3).strength(20.0F, 1200.0F), UniformIntProvider.create(4, 10));
     }
 
 }
