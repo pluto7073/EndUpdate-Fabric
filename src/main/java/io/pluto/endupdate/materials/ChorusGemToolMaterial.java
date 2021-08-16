@@ -9,12 +9,12 @@ public class ChorusGemToolMaterial implements ToolMaterial {
     public static final ChorusGemToolMaterial INSTANCE = new ChorusGemToolMaterial();
 
     public int getDurability() {
-        return 1920;
+        return 3201;
     }
 
 
     public float getMiningSpeedMultiplier() {
-        return 5.0f;
+        return 12.0f;
     }
 
 
@@ -24,12 +24,12 @@ public class ChorusGemToolMaterial implements ToolMaterial {
 
 
     public int getMiningLevel() {
-        return 3;
+        return 5;
     }
 
 
     public int getEnchantability() {
-        return 22;
+        return 19;
     }
 
 

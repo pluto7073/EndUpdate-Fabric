@@ -9,13 +9,13 @@ import net.minecraft.sound.SoundEvents;
 
 public class ChorusGemArmorMaterial implements ArmorMaterial {
 
-    private static final int[] BASE_DURABILITY = new int[] {1920, 2000, 2048, 1920};
+    private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};
     private static final int[] PROTECTION_VALUES = new int[] {3, 6, 8, 3};
     public static final ChorusGemArmorMaterial INSTANCE = new ChorusGemArmorMaterial();
 
     @Override
     public int getDurability(EquipmentSlot slot) {
-        return BASE_DURABILITY[slot.getEntitySlotId()];
+        return BASE_DURABILITY[slot.getEntitySlotId()] * 40;
     }
 
     @Override
@@ -25,7 +25,7 @@ public class ChorusGemArmorMaterial implements ArmorMaterial {
 
     @Override
     public int getEnchantability() {
-        return 22;
+        return 19;
     }
 
     @Override
@@ -45,12 +45,12 @@ public class ChorusGemArmorMaterial implements ArmorMaterial {
 
     @Override
     public float getToughness() {
-        return 10.0f;
+        return 4.0f;
     }
 
     @Override
     public float getKnockbackResistance() {
-        return 0.10f;
+        return 0.25f;
     }
 
 }
